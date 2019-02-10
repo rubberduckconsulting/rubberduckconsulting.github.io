@@ -3829,7 +3829,7 @@ body {
     src: url('fonts/HaufeMerriweather.eot'); /* IE9 Compat Modes */
     src: url('fonts/HaufeMerriweather.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('fonts/HaufeMerriweather.woff') format('woff'), /* Modern Browsers */
-         url('fonts/HaufeMerriweather.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/haufemerriweather.ttf') format('truetype'), /* Safari, Android, iOS */
          url('fonts/HaufeMerriweather.svg#HaufeMerriweather') format('svg'); /* Legacy iOS */
     font-style: normal;
     font-weight: normal;
