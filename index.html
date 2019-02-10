@@ -13,8 +13,8 @@ slides:
       klass: bottom-to-top
       items:
         - text: Learn More
-          link_to: /#more
-          
+          link_to: /#about
+
 works:
   - image: images/clients/dvla.png
     title: Beautiful Girl
@@ -56,21 +56,6 @@ works:
     link_to: portfolio-item.html
     klass: graphi-design
     desc: Design &amp; Development
-
-
-services:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
 
 milestones:
   - icon: folder-open
@@ -153,6 +138,19 @@ milestones:
 
 <div class="four spacing"></div>
 
+<div class='row' id="about">
+  <div class='large-12 columns'>
+    {% include section-header.html title="About" %}
+    <div class='spacing'></div>
+   <p>
+      From QA consultancy services to automation training, Rubber Duck Consulting provides clients with the knwowledge and tools that create value, build relationships, and grow revenue. We adapt to a variety of needs and goals across industries, providing quality assurance so our clients can truly transform.
+    </p>
+    <div class='spacing'></div>
+  </div>
+</div>
+
+<div class="spacing"></div>
+
 <div class="row" id="more">
   <div class="medium-3 large-3 columns">
     {% include icon-text.html title='Consulting' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-comments-o' delay='0' shape_class='icon-text-circle' %}
@@ -173,48 +171,8 @@ milestones:
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Services" %}
+      {% include section-header.html title="Recent Work" %}
       <div class='spacing'></div>
-     <p>
-        From consultancy services to training, Rubber Duck Consulting provides clients with the knwowledge and tools that create value, build relationships, and grow revenue. We adapt to a variety of needs and goals across industries, forever innovating so our clients can truly transform. Get to know our most recent work below.
-      </p>
-      <div class='three spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='medium-6 columns'>
-      <img class="fadeinleft" alt="" src="images/sections/work.jpg" />
-      <div class='three spacing'></div>
-    </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-  <div class='spacing'></div>
-</div>
-
-
-
-<div class="spacing"></div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Work" %}
-      <div class='spacing'></div>
-     <p>
-        From consultancy services to training, Rubber Duck Consulting provides clients with the knwowledge and tools that create value, build relationships, and grow revenue. We adapt to a variety of needs and goals across industries, forever innovating so our clients can truly transform. Get to know our most recent work below.
-      </p>
-      <div class='three spacing'></div>
     </div>
   </div>
   <div class='spacing'></div>
@@ -228,10 +186,10 @@ milestones:
   <div class='mod modCallToAction'>
     <div class='row'>
       <div class='medium-9 large-9 columns'>
-        <p>Like what you see here? Want to discuss.</p>
+        <p>Like what you see here?</p>
       </div>
       <div class='medium-3 large-3 columns'>
-        <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
+        <a class='button' href='contact.html'>Get in touch</a>
       </div>
     </div>
   </div>
