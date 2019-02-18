@@ -5,6 +5,12 @@
 - name: Services
   path: services.html
   section_id: services
+- name: Training
+  path: training.html
+  section_id: training
+  children:
+    - name: DevTools for Testers
+      path: training-dev-tools.html
 - name: Portfolio
   path: portfolio.html
   section_id: portfolio
