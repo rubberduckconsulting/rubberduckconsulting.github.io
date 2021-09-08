@@ -1,5 +1,8 @@
 - image: images/clients/seleniumconf.png
 - image: images/clients/notbinary.png
+- image: images/clients/dvla.png
 - image: images/clients/mot.png
 - image: images/clients/ltg.png
 - image: images/clients/wjec.png
+- image: images/clients/ee.png
+- image: images/clients/hmrc.png
