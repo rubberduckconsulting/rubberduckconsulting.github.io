@@ -1104,7 +1104,7 @@ form input.error, form textarea.error {
 /*Footer */
 #footer {
   background: #222;
-  color: #999;
+  color: #f2f2f2;
 }
 #footer h1 {
   margin-bottom: 25px;
@@ -3129,7 +3129,7 @@ body {
 }
 .modMilestone i {
   font-size: 36px;
-  color: #333;
+  color: #000;
   background: #dbed0f;
   width: 90px;
   height: 90px;
@@ -3830,7 +3830,7 @@ body {
 	
 	a, .modBlogPost.big h3 a:hover, .pager a, .modIconText .icon-text-circle:hover i  {color: #005DA5; /*haufe blue*/}
 	.top-bar-section ul li > a {color: #33332E /*black*/}
-	.top-bar-section li.active:not(.has-form) a:not(.button) { color: #dbed0f; background: none;  }
+	.top-bar-section li.active:not(.has-form) a:not(.button) { color: #000; background: none;  }
 	.top-bar-section ul li:hover:not(.has-form) > a, .top-bar-section li.active:not(.has-form) a:not(.button):hover {color: #005DA5; background: none;}
 	
 	a:hover, .pager a:hover {color: #292a2a;}
@@ -3844,7 +3844,7 @@ body {
 .button {
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff;
+  color: #000;
   background: #dbed0f;
   border:none;
 }
@@ -3857,7 +3857,7 @@ body {
 background-color: #EF8037;}
 
 .button.boxed {
-  color: #fff;
+  color: #000;
   border: 2px solid #dbed0f;
   background: none;
 }
