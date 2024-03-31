@@ -2,9 +2,6 @@
   path: index.html
   section_id: home
   section_id: about
-- name: Services
-  path: services.html
-  section_id: services
 - name: Portfolio
   path: portfolio.html
   section_id: portfolio
